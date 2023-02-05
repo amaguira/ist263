@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+<meta charset="utf-8">
+<title>Links and Embeding</title>
+<body>
+<h1>External, Relative, Bookmark, Links, and Embeding </h1>
+
+<h2>Links</h2>
+<h3> External</h3>
+<a>href="http://www.google.com">Google</a>
+<h3> Relative</h3>
+<p>
+    
+</p>
+<ul>
+    <li>
+        Link to a file in the same folder 
+        <a href="unit2example.html">Unit 2 example</a>
+    </li>
+<h3> Bookmaark</h3>
+<h2> Embeding</h2
+</body>
+</html> 
+
