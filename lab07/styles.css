@@ -1,10 +1,30 @@
 body{
-    background-color: hex(#dd8177);/* body background color*/
-    color:hex(#482705);/* text color*/
+    background-color: #dd9177;/* body background color*/
+    color:#482705;/* text color*/
+}
     
-/* link color*/
-/* heading color*/
+
+a{color:#0000FF;}
+a:hover {color:#FFFF;}/* link color*/
+
+h1{ 
+    background-color: #dd8177;
+    color: #4b194f;
+}
+nav{
+    background-color:#dd8177 ;
+    border: 2px solid #000000;
+    padding:10px;
+    margin-bottom:30px;
+}
+    
+
+
+    
+    
+    
+    
+    /* heading color*/
 /* site navigation background*/
 /* site navigation highlight color*/
 /* site naviagtion link color*/
-}
