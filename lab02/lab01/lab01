@@ -18,8 +18,11 @@
 
     <h2>Personal Information</h2>
     <p>
-    I enjoy being around friends and family and when I am not around people I love to watch movies and rewatch sitcoms.
+    I enjoy being around friends and family and when I am not around people I love to...
+     <ol> 
+     <li> Watch movies and rewatch sitcoms.</li>
+     <li> Go to the gym</li>
     </p>
-    
+    <br>
 </body>
 </html>
