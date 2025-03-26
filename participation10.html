@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Text</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        
+        .row {
+            padding: 20px;
+            margin: 10px;
+            text-align: center;
+            font-size: 2rem;
+            display: block; /* Ensures visibility */
+        }
+        
+        .row::after {
+            content: "I’m large.";
+        }
+        
+        @media (max-width: 800px) {
+            .row::after {
+                content: "I’m small.";
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="row"></div>
+</body>
+</html>
+
