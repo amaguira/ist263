@@ -1,0 +1,54 @@
+
+body {
+    background-color: #F0F0F0; 
+    color: #333333; 
+    font-family: Arial, sans-serif;
+}
+
+
+nav {
+    background-color: #0044CC; 
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+/* Style for navigation links */
+nav a {
+    color: #FFFFFF; 
+    text-decoration: none;
+    padding: 5px 10px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+/* Hover effect for navigation links */
+nav a:hover {
+    background-color: #FFAA00; /
+    color: #000000; 
+}
+
+/* Box Model Adjustments */
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #000000;
+}
+
+/* Heading styles */
+h1, h2, h3 {
+    color: #6a0dad; 
+}
+
+/* Link styles */
+a {
+    color: #b64913; 
+    text-decoration: underline;
+}
+
+
+.content {
+    padding: 20px;
+    margin: 15px;
+    border: 1px solid #3212c1;
+}
