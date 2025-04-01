@@ -1,20 +1,20 @@
-/* Set the body background and text colors */
+
 body {
-    background-color: #F0F0F0; /* Replace with your chosen color */
-    color: #333333; /* Replace with your chosen text color */
+    background-color: #F0F0F0; 
+    color: #333333; 
     font-family: Arial, sans-serif;
 }
 
-/* Style for the navigation bar */
+
 nav {
-    background-color: #0044CC; /* Replace with Site Navigation Background */
+    background-color: #0044CC; 
     padding: 10px;
     margin-bottom: 30px;
 }
 
 /* Style for navigation links */
 nav a {
-    color: #FFFFFF; /* Replace with Site Navigation Link Color */
+    color: #FFFFFF; 
     text-decoration: none;
     padding: 5px 10px;
     margin-right: 10px;
@@ -23,8 +23,8 @@ nav a {
 
 /* Hover effect for navigation links */
 nav a:hover {
-    background-color: #FFAA00; /* Replace with Site Navigation Highlight Color */
-    color: #000000; /* Optional: Change text color on hover */
+    background-color: #FFAA00; /
+    color: #000000; 
 }
 
 /* Box Model Adjustments */
@@ -37,18 +37,18 @@ nav a:hover {
 
 /* Heading styles */
 h1, h2, h3 {
-    color: #222222; /* Replace with Heading Color */
+    color: #6a0dad; 
 }
 
 /* Link styles */
 a {
-    color: #0066CC; /* Replace with Link Color */
+    color: #b64913; 
     text-decoration: underline;
 }
 
-/* Box model - add margin and padding to elements */
+
 .content {
     padding: 20px;
     margin: 15px;
-    border: 1px solid #CCCCCC;
+    border: 1px solid #3212c1;
 }
