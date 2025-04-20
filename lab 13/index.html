@@ -25,8 +25,8 @@
         nav a {
             color: white;
             text-decoration: none;
-            font-size: 18px;
-            padding: 8px 15px;
+            font-size: 1.125rem; /* 18px relative */
+            padding: 0.5em 1em;
         }
 
         nav a:hover {
@@ -34,7 +34,27 @@
             border-radius: 5px;
         }
 
-        .container {
+        .skip-link {
+            position: absolute;
+            left: -999px;
+            top: auto;
+            width: 1px;
+            height: 1px;
+            overflow: hidden;
+        }
+
+        .skip-link:focus {
+            position: static;
+            width: auto;
+            height: auto;
+            margin: 10px;
+            padding: 10px;
+            background: #000;
+            color: #fff;
+            z-index: 1000;
+        }
+
+        main {
             max-width: 800px;
             margin: 20px auto;
             background: white;
@@ -68,7 +88,7 @@
         }
 
         @media screen and (max-width: 768px) {
-            .container {
+            main {
                 width: 90%;
                 padding: 15px;
             }
@@ -81,16 +101,19 @@
 </head>
 <body>
 
+    <!-- Accessibility Skip Link -->
+    <a href="#maincontent" class="skip-link">Skip to Content</a>
+
     <nav>
         <a href="index.html">Home</a>
         <a href="maguiraga-bio.html">Biography</a>
         <a href="contacts.html">Contact</a>
     </nav>
 
-    <div class="container">
+    <main id="maincontent">
         <h1>Welcome to My Website!</h1>
 
-        <img src="apply image" alt="Profile Picture" class="profile-pic">
+        <img src="apply image" alt="A headshot of Aminata Maguiraga" class="profile-pic">
 
         <p>
             Hi! My name is <strong>Aminata Maguiraga</strong>. I am an <strong>Information Management and Technology major</strong> at Syracuse University.
@@ -101,9 +124,14 @@
         </p>
 
         <a href="maguiraga-bio.html" class="btn">Learn More</a>
-    </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Aminata Maguiraga</p>
+    </footer>
 
 </body>
 </html>
+
 
 

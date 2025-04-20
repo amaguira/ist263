@@ -5,8 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Aminata Maguiraga - Bio</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        .skip-link {
+            position: absolute;
+            left: -999px;
+            top: auto;
+            width: 1px;
+            height: 1px;
+            overflow: hidden;
+        }
+
+        .skip-link:focus {
+            position: static;
+            width: auto;
+            height: auto;
+            margin: 10px;
+            padding: 10px;
+            background: #000;
+            color: #fff;
+            z-index: 1000;
+        }
+
+        .linkedin-logo {
+            width: 40px;
+            height: auto;
+            margin-top: 10px;
+        }
+
+        .linkedin-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
+
+    <!-- Skip Link for Accessibility -->
+    <a href="#maincontent" class="skip-link">Skip to Content</a>
 
     <nav>
         <a href="index.html">Home</a> <span>|</span>
@@ -14,52 +49,63 @@
         <a href="contact.html">Contact</a>
     </nav>
 
-    <h1>Aminata Maguiraga's Biography</h1>
+    <main id="maincontent">
+        <h1>Aminata Maguiraga's Biography</h1>
 
-    <p>
-        Aminata Maguiraga is Malian and was born and raised in New York City. She likes to travel and try new foods.
-    </p>
+        <section>
+            <p>
+                Aminata Maguiraga is Malian and was born and raised in New York City. She likes to travel and try new foods.
+            </p>
 
-    <p>
-        I am an Information Management and Technology major at Syracuse University, where I am particularly interested in exploring the intersection of data, technology, and user experience. 
-        My goal is to apply these skills in consulting roles, helping organizations solve complex problems and enhance their technological strategies.
-    </p>
+            <p>
+                I am an Information Management and Technology major at Syracuse University, where I am particularly interested in exploring the intersection of data, technology, and user experience. 
+                My goal is to apply these skills in consulting roles, helping organizations solve complex problems and enhance their technological strategies.
+            </p>
 
-    <p>
-        Throughout my academic journey, I have honed skills in communication, organization, and teamwork through my role as a library monitor at Bird Library. 
-        This position has not only provided financial support but also allowed me to develop a keen understanding of effective customer service and operational efficiency. 
-        Networking played a key role in securing this job, a lesson I value deeply.
-    </p>
+            <p>
+                Throughout my academic journey, I have honed skills in communication, organization, and teamwork through my role as a library monitor at Bird Library. 
+                This position has not only provided financial support but also allowed me to develop a keen understanding of effective customer service and operational efficiency. 
+                Networking played a key role in securing this job, a lesson I value deeply.
+            </p>
 
-    <p>
-        Outside of work and academics, I enjoy organizing fun, interactive events with my friends, like building gingerbread houses—a quirky tradition that reflects my creative and social side. 
-        In my downtime, I appreciate engaging TV shows, movies, and books, always looking for stories that spark inspiration or provide a good laugh.
-    </p>
+            <p>
+                Outside of work and academics, I enjoy organizing fun, interactive events with my friends, like building gingerbread houses—a quirky tradition that reflects my creative and social side. 
+                In my downtime, I appreciate engaging TV shows, movies, and books, always looking for stories that spark inspiration or provide a good laugh.
+            </p>
 
-    <p>
-        With a passion for both technology and meaningful human interaction, I am excited to continue growing and taking steps toward a fulfilling career in consulting.
-    </p>
+            <p>
+                With a passion for both technology and meaningful human interaction, I am excited to continue growing and taking steps toward a fulfilling career in consulting.
+            </p>
+        </section>
 
-    <h2>Personal Information</h2>
+        <section>
+            <h2>Personal Information</h2>
 
-    <p>
-        I enjoy being around friends and family, and when I am not around people, I love to...
-    </p>
+            <p>
+                I enjoy being around friends and family, and when I am not around people, I love to...
+            </p>
 
-    <ol> 
-        <li>Watch movies and rewatch sitcoms.</li>
-        <li>Go to the gym</li>
-    </ol>
+            <ol> 
+                <li>Watch movies and rewatch sitcoms.</li>
+                <li>Go to the gym</li>
+            </ol>
+        </section>
 
-    <div class="linkedin-container">
-        <a href="https://www.linkedin.com/in/aminata-maguiraga-b721ab263" target="_blank">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" 
-             alt="LinkedIn" class="linkedin-logo">
-        </a>
-    </div>
+        <div class="linkedin-container">
+            <a href="https://www.linkedin.com/in/aminata-maguiraga-b721ab263" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" 
+                     alt="LinkedIn logo linking to Aminata Maguiraga's profile" class="linkedin-logo">
+            </a>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Aminata Maguiraga</p>
+    </footer>
 
 </body>
 </html>
+
 
 
        
