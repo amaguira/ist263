@@ -1,61 +1,14 @@
-/* Reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #fff1f5; /* light blush pink */
-  color: #73003e; /* deep rose */
-}
-
-/* Navbar */
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #ff6f91; /* rose pink */
-  color: white;
-  padding: 1rem 2rem;
-  flex-wrap: wrap;
-}
-
-.logo {
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
-.nav-links {
-  list-style: none;
-  display: flex;
-  gap: 1.5rem;
-}
-
-.nav-links li a {
-  color: white;
-  text-decoration: none;
-  font-weight: 500;
-}
-
-.nav-links li a:hover {
-  text-decoration: underline;
-  color: #ffb3c6; /* soft coral */
-}
-
-/* Hero Section */
 .hero {
   position: relative;
   width: 100%;
+  height: 100vh; /* Full height of screen */
+  overflow: hidden;
 }
 
 .hero img {
   width: 100%;
-  height: auto;
-  max-height: 500px;
+  height: 100%;
   object-fit: cover;
-  display: block;
   filter: brightness(70%);
 }
 
@@ -66,7 +19,7 @@ body {
   transform: translate(-50%, -50%);
   color: #73003e;
   text-align: center;
-  background-color: rgba(255, 235, 242, 0.6); /* light rose overlay */
+  background-color: rgba(255, 235, 242, 0.6);
   padding: 1rem 2rem;
   border-radius: 10px;
 }
@@ -75,15 +28,4 @@ body {
   font-size: 2.8rem;
 }
 
-/* Blurb Section */
-.blurb {
-  max-width: 900px;
-  margin: 2rem auto;
-  padding: 0 1.5rem;
-  font-size: 1.2rem;
-  text-align: center;
-}
-
-/* Responsive Design */
-@media (max-width: 768)
 
