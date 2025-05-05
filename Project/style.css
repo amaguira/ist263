@@ -1,105 +1,89 @@
 /* Reset */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  /* Body base styles */
-  body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #333;
-  }
-  
-  /* Navigation Bar */
-  .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #004e64;
-    color: white;
-    padding: 1rem 2rem;
-    flex-wrap: wrap;
-  }
-  
-  .logo {
-    font-size: 1.5rem;
-    font-weight: bold;
-  }
-  
-  .nav-links {
-    list-style: none;
-    display: flex;
-    gap: 1.5rem;
-  }
-  
-  .nav-links li a {
-    color: white;
-    text-decoration: none;
-    font-weight: 500;
-  }
-  
-  .nav-links li a:hover {
-    text-decoration: underline;
-  }
-  
-  /* Hero Section */
-  .hero {
-    position: relative;
-    width: 100%;
-  }
-  
-  .hero img {
-    width: 100%;
-    height: auto;
-    max-height: 500px;
-    object-fit: cover;
-    display: block;
-    filter: brightness(70%);
-  }
-  
-  .hero-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 1rem 2rem;
-    border-radius: 10px;
-  }
-  
-  .hero-text h1 {
-    font-size: 2.8rem;
-  }
-  
-  /* Blurb Section */
-  .blurb {
-    max-width: 900px;
-    margin: 2rem auto;
-    padding: 0 1.5rem;
-    font-size: 1.2rem;
-    text-align: center;
-  }
-  
-  /* Responsive Design */
-  @media (max-width: 768px) {
-    .nav-links {
-      flex-direction: column;
-      gap: 0.75rem;
-      align-items: center;
-      margin-top: 1rem;
-    }
-  
-    .hero-text h1 {
-      font-size: 2rem;
-    }
-  
-    .blurb {
-      font-size: 1rem;
-    }
-  }
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff1f5; /* light blush pink */
+  color: #73003e; /* deep rose */
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ff6f91; /* rose pink */
+  color: white;
+  padding: 1rem 2rem;
+  flex-wrap: wrap;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-links li a:hover {
+  text-decoration: underline;
+  color: #ffb3c6; /* soft coral */
+}
+
+/* Hero Section */
+.hero {
+  position: relative;
+  width: 100%;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+  max-height: 500px;
+  object-fit: cover;
+  display: block;
+  filter: brightness(70%);
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #73003e;
+  text-align: center;
+  background-color: rgba(255, 235, 242, 0.6); /* light rose overlay */
+  padding: 1rem 2rem;
+  border-radius: 10px;
+}
+
+.hero-text h1 {
+  font-size: 2.8rem;
+}
+
+/* Blurb Section */
+.blurb {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1.5rem;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768)
+
